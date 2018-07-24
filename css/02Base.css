@@ -1,0 +1,101 @@
+/*
+*  Base element Html
+*/
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+h4 {
+    font-family: Quicksand_Light;
+}
+
+h3,
+h2,
+h1 {
+    font-family: Quicksand_Bold;
+}
+
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: .3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+@media(max-width:767px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    h4 {
+        font-size: 10px;
+    }
+}
+
+p {
+    font-family: Quicksand_bold;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+   p {
+    font-family: Quicksand_bold;
+    font-size: 18px;
+}
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Quicksand_Light;
+    font-size: 1.5vw;
+    transition: .6s background;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: grey;
+    cursor: pointer;
+}
+
+
+iframe {
+    width: 30vw;
+    height: 45vh;
+    margin: 0 auto;
+}
+
+
+video {
+    /*    position: fixed;*/
+    /*    top: 0%;*/
+    /*    min-width: 100vw;*/
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    transition: 1s opacity;
+}
+

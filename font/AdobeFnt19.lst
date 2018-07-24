@@ -1,0 +1,283 @@
+%!Adobe-FontList 1.19
+%Locale:0x40c
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BuenaParkJF
+FamilyName:BuenaParkJF
+StyleName:Regular
+FullName:BuenaParkJF
+MenuName:BuenaParkJF
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp\www\html\Acier\Font\buenaparkjf.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:59452
+FileModTime:1511363599
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,BuenaParkJF
+NameArray:0,Win,1,BuenaParkJF
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Elianto-Regular
+FamilyName:Elianto
+StyleName:Regular
+FullName:Elianto Regular
+MenuName:Elianto
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp\www\html\Acier\Font\Elianto-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:68588
+FileModTime:1476082174
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Elianto Regular
+NameArray:0,Win,1,Elianto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:QuicksandBold-Regular
+FamilyName:Quicksand
+StyleName:Bold
+FullName:Quicksand Bold Regular
+MenuName:Quicksand Bold
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\wamp\www\html\Acier\Font\Quicksand_Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:37812
+FileModTime:1512389556
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Quicksand Bold Regular
+NameArray:0,Win,1,Quicksand Bold
+NameArray:0,Win,16,Quicksand
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:QuicksandLight-Regular
+FamilyName:Quicksand
+StyleName:Light
+FullName:Quicksand Light Regular
+MenuName:Quicksand Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp\www\html\Acier\Font\Quicksand_Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:35504
+FileModTime:1512389557
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Quicksand Light Regular
+NameArray:0,Win,1,Quicksand Light
+NameArray:0,Win,16,Quicksand
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:QuicksandBold-Regular
+FamilyName:Quicksand
+StyleName:Bold
+FullName:Quicksand Bold Regular
+MenuName:Quicksand Bold
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\wamp\www\html\Acier\Font\quicksand\Quicksand_Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:37812
+FileModTime:1512389556
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Quicksand Bold Regular
+NameArray:0,Win,1,Quicksand Bold
+NameArray:0,Win,16,Quicksand
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:QuicksandBoldOblique-Regular
+FamilyName:Quicksand
+StyleName:Bold Oblique
+FullName:Quicksand Bold Oblique Regular
+MenuName:Quicksand Bold Oblique
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\wamp\www\html\Acier\Font\quicksand\Quicksand_Bold_Oblique.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:38172
+FileModTime:1512389556
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Quicksand Bold Oblique Regular
+NameArray:0,Win,1,Quicksand Bold Oblique
+NameArray:0,Win,16,Quicksand
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:QuicksandBook-Regular
+FamilyName:Quicksand
+StyleName:Book
+FullName:Quicksand Book Regular
+MenuName:Quicksand Book
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp\www\html\Acier\Font\quicksand\Quicksand_Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:36656
+FileModTime:1512389556
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Quicksand Book Regular
+NameArray:0,Win,1,Quicksand Book
+NameArray:0,Win,16,Quicksand
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:QuicksandBookOblique-Regular
+FamilyName:Quicksand
+StyleName:Book Oblique
+FullName:Quicksand Book Oblique Regular
+MenuName:Quicksand Book Oblique
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\wamp\www\html\Acier\Font\quicksand\Quicksand_Book_Oblique.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:38752
+FileModTime:1512389557
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Quicksand Book Oblique Regular
+NameArray:0,Win,1,Quicksand Book Oblique
+NameArray:0,Win,16,Quicksand
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:QuicksandDash-Regular
+FamilyName:Quicksand
+StyleName:Dash
+FullName:Quicksand Dash Regular
+MenuName:Quicksand Dash
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp\www\html\Acier\Font\quicksand\Quicksand_Dash.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:60244
+FileModTime:1512389557
+WeightClass:200
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Quicksand Dash Regular
+NameArray:0,Win,1,Quicksand Dash
+NameArray:0,Win,16,Quicksand
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:QuicksandLight-Regular
+FamilyName:Quicksand
+StyleName:Light
+FullName:Quicksand Light Regular
+MenuName:Quicksand Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp\www\html\Acier\Font\quicksand\Quicksand_Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:35504
+FileModTime:1512389557
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Quicksand Light Regular
+NameArray:0,Win,1,Quicksand Light
+NameArray:0,Win,16,Quicksand
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:QuicksandLightOblique-Regular
+FamilyName:Quicksand
+StyleName:Light Oblique
+FullName:Quicksand Light Oblique Regular
+MenuName:Quicksand Light Oblique
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\wamp\www\html\Acier\Font\quicksand\Quicksand_Light_Oblique.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:36548
+FileModTime:1512389557
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Quicksand Light Oblique Regular
+NameArray:0,Win,1,Quicksand Light Oblique
+NameArray:0,Win,16,Quicksand
+%EndFont
+

@@ -1,0 +1,104 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 ! important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-size: 0.7rem!important;
+    /*    overflow: hidden;*/
+ /*       background-image: url("../img/all/back.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+
+/* Bootstrap */ 
+
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.col-md-2 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.form-control:focus {
+    background-color: white;
+    box-shadow: none;
+    color: black !important;
+}
+
+/*
+ * Import of the font
+ */
+
+@font-face {
+    font-family: "buenaparkjf";
+    src: url('../font/buenaparkjf.ttf');
+}
+
+@font-face {
+    font-family: "Quicksand_Light";
+    src: url('../font/Quicksand_Light.otf');
+}
+
+@font-face {
+    font-family: "Quicksand_Bold";
+    src: url('../font/Quicksand_Bold.otf');
+}
+
+@font-face {
+    font-family: "Elianto-Regular";
+    src: url('../font/Elianto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Chantilly-Serial-Heavy-Regular";
+    src: url('../font/Chantilly-Serial-Heavy-Regular.ttf');
+}
+
+@font-face {
+    font-family: "RozhaOne-Regular";
+    src: url('../font/RozhaOne-Regular.ttf');
+}
+
+/*
+*  Font Attribution  *******************************
+*/
+
+.buena {
+    font-family: buenaparkjf;
+}
+
+.font-quick {
+    font-family: Quicksand_Light;
+}
+
+.font-quick-bold {
+    font-family: Quicksand_Bold;
+}
+
+.chantilly-heavy {
+    font-family: Impact;
+}
+
+.chantilly-heavy {
+    font-family: Chantilly-Serial-Heavy-Regular;
+}
+
+.rozhaOne {
+    font-family: RozhaOne-Regular;
+}

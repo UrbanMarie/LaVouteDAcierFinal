@@ -1,0 +1,93 @@
+
+/*
+* P
+*/
+text-white {
+    color: white;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+.let-space {
+    letter-spacing: 2px;
+}
+
+.let-space-little {
+    letter-spacing: 0.02px;
+}
+
+.letter-space {
+    letter-spacing: -1px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.para-center {
+    text-align: center;
+}
+
+.para-justify {
+    text-align: justify;
+}
+
+/*
+* Color
+*/
+
+.marron {
+    background-color: #4a2d27;
+}
+
+.black {
+    background-color: #222222;
+}
+
+.back-white {
+    background-color: white;
+}
+
+/*
+*  Line wrap 
+*/
+
+.line-wrap-maroon {
+    position: relative;
+    margin: 0.98vw 6vw 2vh;
+    width: 5.6vw;
+    height: 3px;
+    overflow: hidden;
+    background: #864b2d;
+}
+
+.line-wrap {
+    position: relative;
+    margin: 0.98vw 6vw 2vh;
+    width: 5.6vw;
+    height: 3px;
+    overflow: hidden;
+    background: white;
+}
+.line-wrap-black {
+    position: relative;
+    margin: 0.98vw 6vw 2vh;
+    width: 5.6vw;
+    height: 3px;
+    overflow: hidden;
+    background: black;
+}
+
+.width-all-vp {
+    width: 100vw;
+}
+
+.center-elmt{
+    margin: 0 auto;
+}

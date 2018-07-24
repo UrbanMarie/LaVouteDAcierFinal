@@ -1,0 +1,89 @@
+#logo {
+    width: 20em;
+    height: auto;
+}
+
+@media(max-width:767px) {
+    #logo {
+        display: none;
+    }
+}
+
+@media(min-width:768px) {
+    #logo {
+        display: none;
+    }
+}
+
+@media(min-width:992px) {
+    #logo {
+        display: block;
+    }
+}
+
+@media(min-width:1200px) {
+    #logo {
+        display: block;
+    }
+}
+
+#mentions {
+    color: white;
+    font-family: "Helvetica Neue";
+}
+
+#contacts {
+    display: block;
+}
+
+@media(max-width:767px) {
+    #contacts {
+        display: none;
+    }
+}
+
+#adresse {
+    display: block;
+}
+
+@media(max-width:300px) {
+    #adresse {
+        display: none;
+    }
+}
+
+#anchor {
+    background: none;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+        -webkit-animation: action 0.5s infinite alternate;
+    animation: action 0.5s infinite alternate;
+}
+
+#anchor h1 {
+    font-size: 3vh;
+}
+
+#content_gall {
+    padding-top: 4%;
+    padding-left: 4%;
+}
+
+#map {
+    width: 152%;
+    height: 56%;
+    margin-left: -58%;
+}
+
+a.mapboxgl-ctrl-logo {
+    display:none;
+}
+
+.mapboxgl-ctrl.mapboxgl-ctrl-attrib a{
+    padding: 0;
+    font-size: 12px!important;
+}
+
+
