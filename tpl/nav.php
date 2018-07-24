@@ -1,6 +1,6 @@
 <div class='container-fluid'>
     <!--        <div class="navbar-sticky">-->
-    <nav class="pl-5 navbar navbar-expand-lg navbar-dark bg-dark menu" id="topheader">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu">
 <!--        <a class="navbar-brand" href="#">Image?</a>-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

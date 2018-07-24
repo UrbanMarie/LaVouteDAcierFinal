@@ -100,7 +100,7 @@ function get_subject() {
         var origOffsetY = menu.offsetTop;
         
         function scroll() {
-            if ($(window).scrollTop() >= origOffsetY) {
+            if ($(window).scrollTop() > origOffsetY) {
                 $('.menu').addClass('fixed-top');
             } else {
                 $('.menu').removeClass('fixed-top');

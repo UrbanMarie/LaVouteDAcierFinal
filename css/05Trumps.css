@@ -58,7 +58,7 @@
     position: absolute;
     bottom: 0;
     margin: 0 auto;
-        -webkit-animation: action 0.5s infinite alternate;
+     -webkit-animation: action 0.5s infinite alternate;
     animation: action 0.5s infinite alternate;
 }
 
