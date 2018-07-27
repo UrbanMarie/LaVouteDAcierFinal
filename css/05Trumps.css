@@ -67,8 +67,8 @@
 }
 
 #content_gall {
-    padding-top: 4%;
-    padding-left: 4%;
+    padding-top: 1%;
+    margin-bottom:5em;
 }
 
 #map {
@@ -86,4 +86,39 @@ a.mapboxgl-ctrl-logo {
     font-size: 12px!important;
 }
 
+#linkML {
+    font-size: 16px !important;
+}
 
+#img-nav {
+    width: 8em !important;
+}
+
+/*#side-col {
+    background-color: #40484f; 
+    z-index: -1;
+}*/
+
+#homeView {
+    background-color: black;
+}
+
+nav {
+  background: #eaebec;
+  min-height: 85px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: dimgrey;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+    background-color: darkred;
+    color: darkgreen;
+}

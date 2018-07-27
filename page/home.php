@@ -30,7 +30,7 @@
         </div>
     </section>
 
-    <section id="slide2 ">
+    <section id="slide2">
         <div class="slide_inside d-flex align-items-center text-center">
             <div class="row">
                 <div class="col-md-1"></div>
@@ -44,6 +44,13 @@
                     <div class="text-center">
                         <img src="../img/home/chris.png" alt="Photographie Christophe Benet" class="id-img img-max m-2">
                         <img src="../img/home/max.png" alt="Photographie Maxime Urbano" class="id-img m-2">
+                    </div>
+                          <div id="myDIV">
+                        <button class="btn">1</button>
+                        <button class="btn">2</button>
+                        <button class="btn">3</button>
+                        <button class="btn">4</button>
+                        <button class="btn">5</button>
                     </div>
                 </div>
                 <div class="anchor text-center width-all-vp ">
@@ -64,13 +71,16 @@
                     <div class="form text-center">
                         <form name="formulaire" id="Form" method="post" enctype="text/plain" action="">
                             <div class="form-group">
+                                <input type="email" class="form-control rounded form-contact" id="" name="" placeholder="Adresse Mail" required>
+                            </div>
+                            <div class="form-group">
                                 <input type="text" class="form-control rounded form-contact" id="subject" name="Sujet" placeholder="Sujet" required>
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control rounded form-contact" id="message" name="Message" placeholder="Message" maxlength="140" rows="7"></textarea>
                             </div>
                             <div>
-                                <p class="mentions pb-3"> * Merci d'indiquer votre nom, un numéro de téléphone ou une adresse mail valide</p>
+                                <p class="mentions pb-3 white-text"> * Merci d'indiquer votre nom, un numéro de téléphone ou une adresse mail valide</p>
                             </div>
                             <input type="reset" class="btn pull-right marg-top-little marg-little" value="Effacer">
                             <input type="submit" name="submit" onclick="get_subject()" class="btn pull-right marg-top-little" value="Envoyer">
@@ -134,10 +144,57 @@
 <?php 
     include '../tpl/footer.php';
     ?>
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+    });
+                                }
+</script>
+<!--// Sticky navbar
+// =========================-->
+<script>
+    $(document).ready(function() {
+        // Custom function which toggles between sticky class (is-sticky)
+        var stickyToggle = function(sticky, stickyWrapper, scrollElement) {
+            var stickyHeight = sticky.outerHeight();
+            var stickyTop = stickyWrapper.offset().top;
+            if (scrollElement.scrollTop() >= stickyTop) {
+                stickyWrapper.height(stickyHeight);
+                sticky.addClass("is-sticky");
+            } else {
+                sticky.removeClass("is-sticky");
+                stickyWrapper.height('auto');
+            }
+        };
+
+        // Find all data-toggle="sticky-onscroll" elements
+        $('[data-toggle="sticky-onscroll"]').each(function() {
+            var sticky = $(this);
+            var stickyWrapper = $('<div>').addClass('sticky-wrapper'); // insert hidden element to maintain actual top offset on page
+            sticky.before(stickyWrapper);
+            sticky.addClass('sticky');
+
+            // Scroll & resize events
+            $(window).on('scroll.sticky-onscroll resize.sticky-onscroll', function() {
+                stickyToggle(sticky, stickyWrapper, $(this));
+            });
+
+            // On page load
+            stickyToggle(sticky, stickyWrapper, $(window));
+        });
+    });
+
+</script>
 
 <script>
     $(document).ready(function() {
-        $('#slide1').parallax("50%", -0.2);
+        $('#slide1').parallax("50%", 0.1);
         $('#slide2').parallax("50%", 0.1);
         $('#slide3').parallax("50%", 0.1);
     })
@@ -147,34 +204,7 @@
 
 <script>
     $(document).ready(function() {
-        // Add smooth scrolling to all links
-        $("#anchor").on('click', function(event) {
-            if (this.hash !== "") {
-                event.preventDefault();
-                var hash = this.hash;
-
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 800, function() {
-                    window.location.hash = hash;
-                });
-            } // End if
-        });
-
-        $("#anchor2").on('click', function(event) {
-            if (this.hash !== "") {
-                event.preventDefault();
-                var hash = this.hash;
-
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 800, function() {
-                    window.location.hash = hash;
-                });
-            } // End if
-        });
-
-        $("#anchor3").on('click', function(event) {
+        $("#anchor,#anchor2,#anchor3").on('click', function(event) {
             if (this.hash !== "") {
                 event.preventDefault();
                 var hash = this.hash;

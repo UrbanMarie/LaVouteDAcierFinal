@@ -36,11 +36,19 @@
     <link rel="stylesheet" type="text/css" href="../css/05Trumps.css">
 
     <link rel="stylesheet" type="text/css" href="../css/animate.css">
+    
+    <link rel="stylesheet" type="text/css" href="../css/06tps.css">
 
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+
+    <!-- CDN FONTANSEWOME -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
     <script>
         new WOW().init();
+
     </script>
 </head>
 
