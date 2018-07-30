@@ -8,7 +8,7 @@
     <nav id="sidebar">
         <div class="sidebar-header">
                      <a href="#" id="sidebarCollapse">
-                        <i class="fas fa-align-right fa-2x"></i>
+                        <i class="fas fa-align-right fa-2x float-right"></i>
                     </a>
             <h5 class="mt-3">Catégories</h5>
         </div>

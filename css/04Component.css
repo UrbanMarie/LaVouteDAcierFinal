@@ -46,7 +46,8 @@ div.desc {
 }
 
 .encadre {
-    border: 2px solid white;
+    border: 3px solid darkred;
+    padding: 10px;
     width: 10em;
 }
 
@@ -235,9 +236,19 @@ div.header img {
     background: url(/img/home/enclume2.jpg) center 0 no-repeat fixed;
 }
 
+@media screen and (max-device-width: 767px) {
+    #slide1 {
+        background: url(/img/home/enclume-mob011.png) center 0 no-repeat fixed;
+    }
+}
+
 #slide2 {
     background: url(/img/home/slide03.png) center 0 no-repeat fixed;
     margin: 0 !important;
+}
+
+@media(max-width:767px) {
+ 
 }
 
 #slide3 {
@@ -253,15 +264,44 @@ div.header img {
     padding-top: 20vh;
 }
 
+@media(max-width:767px) {
+    .slide_inside {
+        width: 100vw;
+        height: 100vh;
+        margin: 0 auto;
+        padding-top: 0;
+    }
+}
+
 #slide1inside {
     background-color: rgba(0, 0, 0, 0.5);
     height: 50vh;
     padding: 4em;
 }
 
+@media(max-width:767px) {
+    #slide1inside {
+        background-color: rgba(0, 0, 0, 0.0);
+        height: 64vh;
+        padding: 2em;
+    }
+}
+
+#slide2inside{
+    margin-top:7em;
+}
+
 #slide3inside {
     background-color: rgba(0, 0, 0, 0.5);
     height: 70vh;
+}
+
+@media(max-width:767px) {
+    #slide3inside {
+        background-color: rgba(0, 0, 0, 0.0);
+        height: 64vh;
+        padding: 2em;
+    }
 }
 
 .home-citation h2 {
@@ -337,9 +377,8 @@ img.id-img {
 @media screen and (max-width: 600px) {
     .column {
         flex: 100%;
-        max-width: 75%;
-    /*    margin-left: 8em;*/
-
+        max-width: 100%;
+        /*    margin-left: 8em;*/
     }
 }
 
@@ -707,9 +746,21 @@ text-pola {
     font-size: 3vw;
 }
 
+.subtiles {
+    color: darkred;
+    font-size: 1.8vw;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 @media(max-width:767px) {
     .title-1 {
-        font-size: 4vw;
+        font-size: 6vw;
+    }
+    .subtiles {
+        color: darkred;
+        font-size: 16px;
+        padding: 10px;
     }
 }
 
@@ -717,13 +768,6 @@ text-pola {
     font-size: 2vw;
 }
 
-.subtiles-maroon {
-    color: #864b2d;
-}
-
-.subtiles {
-    color: white;
-}
 
 .text {
     font-size: 1.2em;
@@ -930,6 +974,13 @@ div.foot p {
 .form {
     width: 40vw;
     margin: 0 auto;
+}
+
+@media(max-width:767px) {
+   .form {
+    width: 76vw;
+    margin: 0 auto;
+}
 }
 
 

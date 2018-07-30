@@ -64,7 +64,7 @@ text-white {
     width: 5.6vw;
     height: 3px;
     overflow: hidden;
-    background: #864b2d;
+    background: darkred;
 }
 
 .line-wrap {
@@ -73,7 +73,7 @@ text-white {
     width: 5.6vw;
     height: 3px;
     overflow: hidden;
-    background: white;
+    background: darkred;
 }
 .line-wrap-black {
     position: relative;
@@ -90,4 +90,34 @@ text-white {
 
 .center-elmt{
     margin: 0 auto;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 8px 8px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.not-mob {
+    display: inherit;
+}
+
+.not-desk{
+    display: none;
+}
+@media(max-width:767px) {
+    .not-mob {
+      display:none;
+    }
+    .not-desk{
+    display: block;
+}
+}
+
+.bordered {
+    border: solid white 2px;
+    padding:3px;
 }

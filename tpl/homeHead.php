@@ -1,4 +1,4 @@
-<header class="container-fluid" id="heady">
+<header class="container-fluid not-mob" id="heady">
     <div id="test" class="header text-center">
         <!-- <img src="../header2.gif" alt="header soudure">-->
         <video poster="../img/home/attente.png" id="bgvid" playsinline muted autoplay loop onscroll="" class="">

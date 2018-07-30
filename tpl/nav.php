@@ -1,11 +1,11 @@
 <?php      
-$self = $_SERVER['PHP_SELF'];
-          $gall = "/page/gallery.php";
-          $hom = "/page/home.php";
+    $self = $_SERVER['PHP_SELF'];
+    $gall = "/page/gallery.php";
+    $hom = "/page/home.php";
 ?>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-navbar" data-toggle="sticky-onscroll">
-    <a class="navbar-brand" href="#"><img src="../img/logo/log_voute_isol.png" alt="Logo La voute d'Acier" id="img-nav"></a>
+    <a class="navbar-brand" href="/page/home.php"><img src="../img/logo/log_voute_isol.png" alt="Logo La voute d'Acier" id="img-nav"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -19,7 +19,7 @@ $self = $_SERVER['PHP_SELF'];
             } else {
                echo '<a class="nav-link" href="home.php">Acceuil</a>';
             }
-        ?>       
+        ?>
             </li>
             <li class="nav-item">
                 <?php
@@ -29,7 +29,7 @@ $self = $_SERVER['PHP_SELF'];
                    echo '<a class="nav-link" href="gallery.php">Gallerie</a>';
                 }
                 ?>
-               
+
             </li>
         </ul>
     </div>

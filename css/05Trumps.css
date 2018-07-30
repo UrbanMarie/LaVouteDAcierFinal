@@ -103,22 +103,22 @@ a.mapboxgl-ctrl-logo {
     background-color: black;
 }
 
-nav {
-  background: #eaebec;
-  min-height: 85px;
+lien-home{
+    background-color: black;
 }
 
-.btn {
-    border: none;
-    outline: none;
-    padding: 10px 16px;
-    background-color: dimgrey;
-    cursor: pointer;
-    font-size: 18px;
-}
 
 /* Style the active class, and buttons on mouse-over */
 .active, .btn:hover {
-    background-color: darkred;
-    color: darkgreen;
+  /*  background-color: darkred;*/
+    color: white;
+}
+
+#ap-home {
+float:right;
+    margin-left:18%;
+}
+
+#real-home{
+float:left;
 }

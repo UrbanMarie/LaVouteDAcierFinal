@@ -1,19 +1,42 @@
 <?php 
     include '../tpl/head.php';
-    include '../tpl/homeHead.php';
     include '../tpl/nav.php';
+    include '../tpl/homeHead.php';
+
     ?>
 
 <main class="container-fluid" id="homeView">
 
     <section class="relative home-one " id="slide1">
         <div class="slide_inside row">
-            <div class="col-md-6 d-flex align-items-center">
-                <h2 class="draw white-text center-elmt p-3 ">
-                    <a href="gallery.php"><button class="draw">Nos réalisations</button></a>
-                </h2>
+            <div class="col-sm-6 col-md-6 d-flex align-items-center not-mob ">
+                <div class="row not-mob">
+                    <div class="col-sm-6 col-md-6 text-center ">
+                        <h2 class="draw white-text center-elmt p-3 ">
+                            <a href="gallery.php"><button class="draw">Nos réalisations</button></a>
+                            <!--    <a href="gallery.php">Nos réalisations</a>-->
+                        </h2>
+                    </div>
+                    <div class="col-sm-6 col-md-6 text-center">
+                        <h2 class="draw white-text center-elmt p-3 ">
+                            <a href="#slide2" id="anchor2"><button class="draw">A propos</button></a>
+                        </h2>
+                    </div>
+                </div>
+                <div class="not-desk d-flex" id="lien-home">
+                <div class="" id="real-home">
+                        <h3 class="white-text center-elmt bordered not-desk">
+                            <a href="gallery.php">Nos réalisations</a>
+                        </h3>
+                    </div>
+                <div id="ap-home">
+                       <h3 class="white-text center-elmt bordered not-desk">
+                            <a href="#slide2" id="anchor2">A propos</a>
+                        </h3>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-5 text-white" id="slide1inside">
+            <div class="col-sm-6 col-md-6 text-white" id="slide1inside">
                 <h2 class="subtiles textleft">l'Artisanat</h2>
                 <h1 class="title-1">Notre métier</h1>
                 <div class="line-wrap"></div>
@@ -34,9 +57,9 @@
         <div class="slide_inside d-flex align-items-center text-center">
             <div class="row">
                 <div class="col-md-1"></div>
-                <div class="col-md-5 p-5">
-                    <h2 class="subtiles-maroon text-left">À propos</h2>
-                    <h1>Une entreprise familiale</h1>
+                <div class="col-md-5 p-5" id="slide2inside">
+                    <h2 class="subtiles text-left">À propos</h2>
+                    <h1 class="title-1">Une entreprise familiale</h1>
                     <div class="line-wrap-maroon"></div>
                     <p class="mt-5"> Descendant d'un père Ferronier d'art. Christophe et Maxime ont commencé leur carrière chacun de leur côté, l'un dans l'enseignement l'autre dans le compagnonnage. C'est avec la complémentarité de leurs deux cursus qu'ils ont décidé de se retrouver autour des valeurs qu'ils revendiquent:<br> tradition, technicité et design.</p>
                 </div>
@@ -44,13 +67,6 @@
                     <div class="text-center">
                         <img src="../img/home/chris.png" alt="Photographie Christophe Benet" class="id-img img-max m-2">
                         <img src="../img/home/max.png" alt="Photographie Maxime Urbano" class="id-img m-2">
-                    </div>
-                          <div id="myDIV">
-                        <button class="btn">1</button>
-                        <button class="btn">2</button>
-                        <button class="btn">3</button>
-                        <button class="btn">4</button>
-                        <button class="btn">5</button>
                     </div>
                 </div>
                 <div class="anchor text-center width-all-vp ">
@@ -144,18 +160,7 @@
 <?php 
     include '../tpl/footer.php';
     ?>
-<script>
-// Add active class to the current button (highlight it)
-var header = document.getElementById("myDIV");
-var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function () {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
-    });
-                                }
-</script>
+
 <!--// Sticky navbar
 // =========================-->
 <script>

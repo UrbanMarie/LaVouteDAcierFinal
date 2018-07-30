@@ -44,22 +44,17 @@ h2 {
     }
 }
 
-/*p {
-    font-family: Quicksand_bold;
-    font-size: 16px;
-}
-
-@media screen and (max-width: 768px) {
-   p {
-    font-family: Quicksand_bold;
-    font-size: 18px;
-}
-}*/
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8em;
     font-weight: 300;
     line-height: 1.7em;
+}
+
+@media(max-width:767px) {
+ p {
+    font-size: 1.5em;
+}
 }
 
 a,
@@ -71,37 +66,11 @@ a:focus {
     font-size:16px;
 }
 
-
-/*a {
-    display: inline-block;
-    text-decoration: none;
-    font-family: Quicksand_Light;
-    font-size: 1.5vw;
-    transition: .6s background;
-}
-
-a:link {
-    color: white;
-}
-
-a:visited {
-    color: whitesmoke;
-}
-
-a:hover,
-a:focus,
-a:active {
-    color: grey;
-    cursor: pointer;
-}*/
-
-
 iframe {
     width: 30vw;
     height: 45vh;
     margin: 0 auto;
 }
-
 
 video {
     /*    position: fixed;*/

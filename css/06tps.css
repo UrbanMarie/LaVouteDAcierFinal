@@ -7,16 +7,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
-
-.navbar {
-    padding: 15px 10px;
-    background: #fff;
-    border: none;
-    border-radius: 0;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-}
-
 .navbar-btn {
     box-shadow: none;
     outline: none !important;
@@ -47,7 +37,7 @@ span {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #34495e;
+    background: #464F57;
     color: #fff;
     transition: all 0.3s;
 }
@@ -105,11 +95,6 @@ span {
 #sidebar .sidebar-header strong {
     display: none;
     font-size: 1.8em;
-}
-
-#sidebar ul.components {
-    padding: 20px 0;
-    border-bottom: 1px solid #47748b;
 }
 
 #sidebar ul li a {
@@ -190,11 +175,14 @@ a.article:hover {
 ----------------------------------------------------- */
 
 @media (max-width: 768px) {
+    #sidebarCollapse{
+        display: none;
+    }
+    
     #sidebar {
         min-width: 80px;
         max-width: 80px;
         text-align: center;
-        margin-left: -80px !important;
     }
     .dropdown-toggle::after {
         top: auto;
@@ -204,7 +192,7 @@ a.article:hover {
         -ms-transform: translateX(50%);
         transform: translateX(50%);
     }
-    #sidebar.active {
+    #sidebar {
         margin-left: 0 !important;
     }
     #sidebar .sidebar-header h5,
@@ -216,6 +204,7 @@ a.article:hover {
     }
     #sidebar ul li a {
         padding: 20px 10px;
+        text-align: center;
     }
     #sidebar ul li a span {
         font-size: 0.85em;
