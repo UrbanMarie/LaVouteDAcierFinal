@@ -15,31 +15,31 @@
 
         <ul class="list-unstyled components ml-1">
             <li>
-                <a href="javascript:visibilite('esc');" class="menu-text" data-toggle="tooltip" data-placement="right" title="Escalier"><img src="../img/gallerie/icon/ico_esc.png" width="25px">
+                <a href="javascript:visibilite('esc');" class="menu-text" data-toggle="tooltip" data-placement="right" title="Escalier" id="ico-gall"><img src="../img/gallerie/icon/ico_escW.png">
                     <span class="cat-sidebar ml-2"> Escalier</span>
                     </a>
             </li>
             <li>
-                <a href="javascript:visibilite('ver');" class="menu-text"><img src="../img/gallerie/icon/ico_verriere.png" width="25px">
+                <a href="javascript:visibilite('ver');" class="menu-text" id="ico-gall"><img src="../img/gallerie/icon/ico_verriereW.png">
                     <span class="cat-sidebar ml-2">Verrière</span>
                     </a>
             </li>
             <li>
-                <a href="javascript:visibilite('gar');" class="menu-text"><img src="../img/gallerie/icon/ico_gcorp.png" width="25px">
+                <a href="javascript:visibilite('gar');" class="menu-text" id="ico-gall"><img src="../img/gallerie/icon/ico_gcorpW.png">
                     <span class="cat-sidebar ml-2">Garde-corps</span>
                     </a>
             </li>
             <li>
-                <a href="javascript:visibilite('mob');" class="menu-text"><img src="../img/gallerie/icon/ico_mobilier.png" width="25px">
+                <a href="javascript:visibilite('mob');" class="menu-text" id="ico-gall"><img src="../img/gallerie/icon/ico_mobilierW.png">
                     <span class="cat-sidebar ml-2">Mobilier</span>
                     </a>
 
             </li>
             <li>
-                <a href="javascript:visibilite('por');" class="menu-text"><img src="../img/gallerie/icon/ico_door.png" width="25px"><span class="cat-sidebar ml-2">Portail</span></a>
+                <a href="javascript:visibilite('por');" class="menu-text" id="ico-gall"><img src="../img/gallerie/icon/ico_doorW.png"><span class="cat-sidebar ml-2">Portail</span></a>
             </li>
             <li>
-                <a href="javascript:visibilite('ram');" class="menu-text"><img src="../img/gallerie/icon/ico_rampe.png" width="25px"><span class="cat-sidebar ml-2">Rampe</span></a>
+                <a href="javascript:visibilite('ram');" class="menu-text" id="ico-gall"><img src="../img/gallerie/icon/ico_rampeW.png"><span class="cat-sidebar ml-2">Rampe</span></a>
             </li>
         </ul>
 

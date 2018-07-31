@@ -10,7 +10,7 @@
             <button id="pauseButton"><i class="fas fa-play"></i></button>
             <div class="d-flex justify-content-center">
                 <a id="anchor" href="#homeView">
-                    <h1 class="encadre">Entrer sur le site<i class="fas fa-arrow-down ml-4"></i></h1>
+                    <h1>Entrer sur le site<i class="fas fa-arrow-down ml-4"></i></h1>
                 </a>
             </div>
         </div>

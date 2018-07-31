@@ -8,36 +8,35 @@
 <main class="container-fluid" id="homeView">
 
     <section class="relative home-one " id="slide1">
-        <div class="slide_inside row">
-            <div class="col-sm-6 col-md-6 d-flex align-items-center not-mob ">
+        <div class="slide_inside row" id="slide11">
+            <div class="col-sm-1 col-md-6 d-flex align-items-center not-mob ">
                 <div class="row not-mob">
-                    <div class="col-sm-6 col-md-6 text-center ">
+            <!--        <div class="col-sm-6 col-md-6 text-center ">
                         <h2 class="draw white-text center-elmt p-3 ">
                             <a href="gallery.php"><button class="draw">Nos réalisations</button></a>
-                            <!--    <a href="gallery.php">Nos réalisations</a>-->
+                                <a href="gallery.php">Nos réalisations</a>
                         </h2>
                     </div>
                     <div class="col-sm-6 col-md-6 text-center">
                         <h2 class="draw white-text center-elmt p-3 ">
                             <a href="#slide2" id="anchor2"><button class="draw">A propos</button></a>
                         </h2>
-                    </div>
+                    </div>-->
                 </div>
-                <div class="not-desk d-flex" id="lien-home">
-                <div class="" id="real-home">
-                        <h3 class="white-text center-elmt bordered not-desk">
+                <div class="not-desk d-flex justify-content-between" id="lien-home">
+                        <h3 class="white-text center-elmt  not-desk ml-3 mr-3">
                             <a href="gallery.php">Nos réalisations</a>
                         </h3>
-                    </div>
-                <div id="ap-home">
-                       <h3 class="white-text center-elmt bordered not-desk">
-                            <a href="#slide2" id="anchor2">A propos</a>
+                       <h3 class="white-text center-elmt not-desk mr-3" style="float:right;">
+                            <a href="#slide2" id="anchor4">A propos</a>
                         </h3>
-                    </div>
+                          <h3 class="white-text center-elmt not-desk mr-2" style="float:right;">
+                            <a href="#slide3" id="anchor5">Contact</a>
+                        </h3>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 text-white" id="slide1inside">
-                <h2 class="subtiles textleft">l'Artisanat</h2>
+            <div class="col-sm-11 col-md-6 text-white" id="slide1inside">
+                <h2 class="subtiles textleft">La Ferronnerie</h2>
                 <h1 class="title-1">Notre métier</h1>
                 <div class="line-wrap"></div>
                 <p class="mt-3">Toutes nos réalisations sont faites sur-mesure et chaque pièce est unique. Proposez nous vos idées, nous étudierons votre projet et établirons un devis.</p><br>
@@ -45,7 +44,7 @@
             </div>
             <div class="col-md-1"></div>
             <div class="row">
-                <div class="anchor-white width-all-vp text-center">
+                <div class="anchor-white width-all-vp text-center not-mob ">
                     <a href="#slide2" id="anchor2"><i class="fas fa-angle-double-down fa-2x white-text"></i></a>
                 </div>
             </div>
@@ -54,14 +53,14 @@
     </section>
 
     <section id="slide2">
-        <div class="slide_inside d-flex align-items-center text-center">
-            <div class="row">
+        <div class="slide_inside d-flex align-items-center text-center" id="slide22">
+             <div class="row">
                 <div class="col-md-1"></div>
-                <div class="col-md-5 p-5" id="slide2inside">
+                <div class="col-md-5 px-5" id="slide2inside">
                     <h2 class="subtiles text-left">À propos</h2>
                     <h1 class="title-1">Une entreprise familiale</h1>
                     <div class="line-wrap-maroon"></div>
-                    <p class="mt-5"> Descendant d'un père Ferronier d'art. Christophe et Maxime ont commencé leur carrière chacun de leur côté, l'un dans l'enseignement l'autre dans le compagnonnage. C'est avec la complémentarité de leurs deux cursus qu'ils ont décidé de se retrouver autour des valeurs qu'ils revendiquent:<br> tradition, technicité et design.</p>
+                    <p> Descendant d'un père Ferronier d'art. Christophe et Maxime ont commencé leur carrière chacun de leur côté, l'un dans l'enseignement l'autre dans le compagnonnage. C'est avec la complémentarité de leurs deux cursus qu'ils ont décidé de se retrouver autour des valeurs qu'ils revendiquent:<br> tradition, technicité et design.</p>
                 </div>
                 <div class="col-md-6">
                     <div class="text-center">
@@ -69,7 +68,7 @@
                         <img src="../img/home/max.png" alt="Photographie Maxime Urbano" class="id-img m-2">
                     </div>
                 </div>
-                <div class="anchor text-center width-all-vp ">
+                <div class="anchor-white text-center width-all-vp not-mob ">
                     <a href="#slide3" id="anchor3"><i class="fas fa-angle-double-down fa-2x" style="color:black;"></i></a>
                 </div>
             </div>
@@ -77,12 +76,12 @@
 
     </section>
     <section id="slide3">
-        <div class="slide_inside">
-            <div class="row">
+        <div class="slide_inside p-5" >
+            <div class="row" id="slide33">
                 <div class="col-md-1"></div>
                 <div class="col-md-5 text-center pt-2" id="slide3inside">
                     <h2 class="subtiles text-left">Plus d'information ?</h2>
-                    <h2 class="title-1 mt-3 ml-5 text-white">Nous contacter</h2>
+                    <h2 class="title-1 mt-3 ml-5">Nous contacter</h2>
                     <div class="line-wrap mb-5"></div>
                     <div class="form text-center">
                         <form name="formulaire" id="Form" method="post" enctype="text/plain" action="">
@@ -209,7 +208,7 @@
 
 <script>
     $(document).ready(function() {
-        $("#anchor,#anchor2,#anchor3").on('click', function(event) {
+        $("#anchor,#anchor2,#anchor3,#anchor4,#anchor5,#anchor6,anchor-nav").on('click', function(event) {
             if (this.hash !== "") {
                 event.preventDefault();
                 var hash = this.hash;

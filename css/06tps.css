@@ -225,6 +225,10 @@ a.article:hover {
     #sidebarCollapse span {
         display: none;
     }
+    #sidebar .sidebar-header {
+    padding: 0px;
+/*    background: #2980b9;*/
+}
 }
 
 

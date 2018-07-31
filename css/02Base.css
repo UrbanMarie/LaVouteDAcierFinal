@@ -84,3 +84,7 @@ video {
     transition: 1s opacity;
 }
 
+button:focus {
+    outline: none !important;
+}
+

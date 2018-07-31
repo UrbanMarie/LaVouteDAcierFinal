@@ -88,7 +88,6 @@ div.header img {
     padding: 2rem;
     /*    width: 33%;*/
     height: 95vh;
-    margin: 2rem;
     font-size: 1.2rem;
 }
 
@@ -172,12 +171,14 @@ div.header img {
     color: #F8F3EA;
     -webkit-animation: action 0.5s infinite alternate;
     animation: action 0.5s infinite alternate;
+    padding-top:16vh;
 }
 
-.anchor a {
+.anchor-black{
     -webkit-animation: action 0.5s infinite alternate;
     animation: action 0.5s infinite alternate;
     z-index: 4;
+    padding-top:20vh;
 }
 
 
@@ -223,7 +224,7 @@ div.header img {
     #slide1,
     #slide2,
     #slide3 {
-        height: 100vh;
+        height: 110vh;
         padding-top: 1vh;
         ;
     }
@@ -248,11 +249,19 @@ div.header img {
 }
 
 @media(max-width:767px) {
- 
+     #slide2 {
+    background: url(/img/home/slide03-mob.png) center 0 no-repeat fixed;
+   
+}
 }
 
 #slide3 {
-    background: url(/img/home/contact.jpg) center 0 no-repeat fixed;
+    background: url(/img/home/telephone.png) center 0 no-repeat fixed;
+    /*    background-color: darkred;*/
+}
+@media(max-width:767px) {
+    #slide3 {
+    background: url(/img/home/telephone-mob.png) center 0 no-repeat fixed;
     /*    background-color: darkred;*/
 }
 
@@ -270,6 +279,7 @@ div.header img {
         height: 100vh;
         margin: 0 auto;
         padding-top: 0;
+        line-height: 2px;
     }
 }
 
@@ -291,14 +301,21 @@ div.header img {
     margin-top:7em;
 }
 
+@media(max-width:767px) {
+    #slide2inside {
+    margin-top:0;
+    }
+}
+
 #slide3inside {
     background-color: rgba(0, 0, 0, 0.5);
     height: 70vh;
 }
 
-@media(max-width:767px) {
+
+    
     #slide3inside {
-        background-color: rgba(0, 0, 0, 0.0);
+        background-color: rgba(0, 0, 0, 0);
         height: 64vh;
         padding: 2em;
     }
@@ -750,7 +767,6 @@ text-pola {
     color: darkred;
     font-size: 1.8vw;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.3);
 }
 
 @media(max-width:767px) {
@@ -1009,7 +1025,7 @@ div.icon img {
 
 @media(max-width:767px) {
     div.icon img {
-        margin-left: 4em;
+        margin-left: 1em;
         width: 6vw;
     }
 }

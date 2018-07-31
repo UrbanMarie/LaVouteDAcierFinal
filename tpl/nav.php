@@ -21,6 +21,12 @@
             }
         ?>
             </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#slide2" id="anchor2" >A propos</a>
+            </li>
+            <li>
+            <a class="nav-link" href="#slide3" id="anchor3">Contact</a>
+            </li>
             <li class="nav-item">
                 <?php
                 if ($self === $gall) {
